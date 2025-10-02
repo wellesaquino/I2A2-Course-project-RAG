@@ -1,13 +1,15 @@
 
 import os
-from dotenv import load_dotenv
 from typing import Dict, Any
+import streamlit as st
 
+#DEV env
+#from dotenv import load_dotenv
 # Carregar variáveis de ambiente
-load_dotenv()
+#load_dotenv()
 
 # Configurações da API
-GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+GEMINI_API_KEY = st.secrets["GOOGLE_API_KEY"]
 
 # Configurações do Gemini 2.5 Flash
 GEMINI_CONFIG = {
