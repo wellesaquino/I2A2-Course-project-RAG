@@ -1,0 +1,39 @@
+# Agente EDA Autônomo - Dependências
+
+# Framework principal
+streamlit>=1.28.0
+langchain>=0.2.0
+langchain-google-genai>=1.0.0
+langchain-experimental>=0.0.50
+langgraph>=0.0.55
+
+# Análise de dados
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualização
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Geração de PDF
+fpdf2>=2.7.0
+
+# Utilitários
+python-dotenv>=1.0.0
+typing-extensions>=4.7.0
+
+# Opcional para melhor performance
+openpyxl>=3.1.0  # Para ler arquivos Excel
+xlrd>=2.0.1      # Para arquivos Excel antigos
+
+# Desenvolvimento e testes (opcional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.7.0
+flake8>=6.0.0
+
+# Sistema
+pillow>=10.0.0   # Para processamento de imagens
+requests>=2.31.0 # Para requisições HTTP
